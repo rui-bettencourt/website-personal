@@ -10,8 +10,9 @@
     <body>
         <div id="topbar" class="bar">
             <a href="index.html">
-                <img id="profilepic" src="media/profilepic.jpeg" alt="Photo of the person">
-            </a>            <span id="name">Rui Fernando Faustino Bettencourt</span>
+                <img id="profilepic" src="media/profilepic.jpg" alt="Photo of the person">
+            </a>
+            <span id="name">Rui Fernando Faustino Bettencourt</span>
             <div id=menu>
                 <div class="btn-group">
                     <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -27,11 +28,25 @@
                 </div>
             </div>
         </div>
+        <!--To prevent the text to overlay the top bar-->
+        <div id="nooverlaytop"></div>
 
 
-        Hello, world! My Personal
+        <div class="content">
+           My personal information.
+        </div>
+
+        <!--Bottom bar, with no overlay-->
+        <div id="nooverlaybottom"></div>
         <div id="bottombar" class="bar">
+            <div class="icon">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+                <a href="https://www.facebook.com/rui.bettencourt.716" class="fa fa-facebook icon"></a>
+                <a href="mailto:rui.bettencourt@tecnico.ulisboa.pt?Subject=Hello" target="_top" class="fa fa-envelope icon"></a> 
+                <a href="https://www.linkedin.com/in/rui-bettencourt/" class="fa fa-linkedin icon"></a>
+                <a href="https://github.com/rui-bettencourt" class="fa fa-github icon"></a>    
+            </div>    
         </div>
 
         <!--To use some components of bootstrap-->
