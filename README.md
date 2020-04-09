@@ -1,3 +1,4 @@
-# Project 0
+# Personal Website
 
-Web Programming with Python and JavaScript
+This repository is meant to host my personal website built as a project for the course: Web Programming with Python and JavaScript. 
+In this website one has access to my personal, academic and professional public information.
